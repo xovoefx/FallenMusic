@@ -16,36 +16,59 @@ async def start_(client: Client, message: Message):
 
         ᴛʜɪs ɪs [{bn}](t.me/{bu}), ᴀ sᴜᴘᴇʀ ғᴀsᴛ ᴠᴄ ᴘʟᴀʏᴇʀ ʙᴏᴛ ғᴏʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ ᴠɪᴅᴇᴏᴄʜᴀᴛs...
 
-
-
-
-
-
-
-
 💞 ɪғ ʏᴏᴜ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴀʙᴏᴜᴛ ᴍᴇ ᴛʜᴇɴ ᴅᴍ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](t.me/{me}) ʙᴀʙʏ...
 ━━━━━━━━━━━━━━━━━━**""",
-    reply_markup=InlineKeyboardMarkup(
+
+
+
+reply_markup=InlineKeyboardMarkup(
+
             [
+
                 [
+
                     InlineKeyboardButton(
-                        " ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ​ ", url=f"https://t.me/{bu}?startgroup=true"
+
+                        " ᴀᴅᴅ ᴍᴇ ʙᴀʙʏ ", url=f"https://t.me/{bu}?startgroup=true"
+
                        ),
+
                   ],[
+
                     InlineKeyboardButton(
+
                         " ᴏᴡɴᴇʀ ", url=f"https://t.me/{me}"
+
                     ),
+
                     InlineKeyboardButton(
+
                         " sᴜᴘᴘᴏʀᴛ ", url=f"https://t.me/{SUPPORT_GROUP}"
+
                     )
+
                 ],[
+
                     InlineKeyboardButton(
+
                         " ɪɴʟɪɴᴇ ", switch_inline_query_current_chat=""
+
                     ),
+
                     InlineKeyboardButton(
-                        " sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ​ ", url="https://t.me/musicxsupportmm"
+
+                        " sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ", url="https://t.me/musicxsupportmm"
+
                     )]
+
             ]
+
        ),
+
     )
 
+
+
+
+
+    
