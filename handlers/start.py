@@ -39,7 +39,7 @@ reply_markup=InlineKeyboardMarkup(
 
                     InlineKeyboardButton(
 
-                        " ᴍᴀɪɴᴛᴇʀ ", url=f"https://t.me/{me}"
+                        " ᴍᴀɪɴᴛᴀɪɴᴇʀ ", url=f"https://t.me/{me}"
 
                     ),
 
